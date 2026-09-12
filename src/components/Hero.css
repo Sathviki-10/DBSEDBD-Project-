@@ -1,0 +1,26 @@
+.hero {
+  height: 90vh;
+
+  background-image: url("../assets/hero-plane.jpg");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: white;
+
+  background: rgba(0,0,0,0.4);
+
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+}
